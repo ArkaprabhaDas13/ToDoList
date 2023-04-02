@@ -1,8 +1,8 @@
 import React from "react";
-import { ReactDOM } from "react";
+
 import './styles.css';
 import { useState } from "react";
-import Todos from "./components/Todos";
+
 import Todo from "./components/Todo";
 
 function App() {

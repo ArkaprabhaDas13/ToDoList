@@ -4,7 +4,7 @@ const Todo = ({name, key, setArray, list}) => {
   
   const removeElement = (name)=>{
     setArray(list.filter((element)=>{
-      return element!=name;
+      return element!==name;
     }))
   }
   
